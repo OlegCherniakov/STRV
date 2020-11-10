@@ -1,0 +1,129 @@
+@import url("../vendor/normalize.css");
+
+body {
+  background-image: url(../image/Шапка.jpg);
+}
+
+
+.page {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1440px;
+   min-width: 320px;
+   box-sizing: border-box;  
+    -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+}
+
+.heder {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+  border-radius: 20px;
+}
+.heder__logo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.heder__logo-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+.subtitle {
+  display: flex;
+  font-family: 'Open+Sans';
+  font-style: normal;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0;
+}
+.heder__logo-text {
+  display: flex;
+  max-width: 16.875rem;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+color: rgb(255, 0, 0);
+}
+.heder__blok {
+  width: 13.75rem;
+  display: flex;
+  box-shadow: 0 0 10px rgba(21, 6, 240, 0.5);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 30px;
+}
+.heder__icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.heder__text {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+.span {
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+.heder__menu {
+  /*background-color: rgb(119, 114, 114);*/
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+.heder__menu-list {
+  display: flex;
+  list-style: none;
+  margin: auto 0 auto 0;
+  padding-left: 0;
+}
+.heder__menu-list-str {
+  display: flex;
+  font-family: 'Lora';
+  background-color: rgb(250, 250, 250);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+  text-align: center;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px groove grey;
+  box-shadow: 10px 20px 10px rgba(41, 40, 44, 0.5);
+}
+.menu {
+  text-decoration: none;
+  color: #ff0000;
+  display: block;
+}
