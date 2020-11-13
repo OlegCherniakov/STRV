@@ -128,3 +128,24 @@ color: rgb(255, 0, 0);
   color: #ff0000;
   display: block;
 }
+
+
+.gallery {
+  width: 80%;
+  height:13.75rem;
+  overflow: hidden;
+  overflow-x: scroll;
+  background: yellow;
+  white-space:nowrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery__photo {
+  display: inline-block;
+  vertical-align: top;
+  width: 12.5rem;
+  height:12.5rem;
+  background: red;
+ 
+}
