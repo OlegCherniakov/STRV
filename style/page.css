@@ -118,8 +118,7 @@ color: rgb(255, 0, 0);
   font-style: normal;
   font-weight: 500;
   font-size: 1.25rem;
-  text-align: center;
-  text-align: center;
+    text-align: center;
   margin-bottom: auto;
   margin-top: auto;
   margin-left: 5px;
@@ -152,9 +151,65 @@ color: rgb(255, 0, 0);
   width: 12.5rem;
   height:12.5rem;
   background: red;
+  background-image: url(../image/Шапка\ 1.jpg);
  
 }
 
+
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 20px 10px rgba(41, 40, 44, 0.5);
+  margin-bottom: 80px;
+}
+.text__contents {
+  display: flex;
+  font-family: monospace;
+  font-style: normal;
+  font-size: 3.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text__slogan {
+  display: flex;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+    color: red;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.title {
+  display: flex;
+  text-align: left;
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  color: #000000;
+    margin-bottom: 0;
+}
+.text__text {
+font-size: 1.25rem;
+font-weight: bold;
+color: rgb(60, 60, 61);
+}
+.text__text--list {
+}
+
+.text__text--list-item {
+  font-family: Open sans;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 
 
 
@@ -191,8 +246,7 @@ color: rgb(255, 0, 0);
   display: flex;
   width: 12.5rem;
   height: 12.5rem;
-  background-image: url(../image/logoza.ru\ \(1\).png);
-  color: white;
+    color: white;
 }
 
 .footer__author {
