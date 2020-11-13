@@ -1,7 +1,12 @@
 @import url("../vendor/normalize.css");
 
 body {
-  background-image: url(../image/Шапка.jpg);
+  /*background: url(../image/Шапка.jpg) no-repeat;  */
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-color: rgb(31, 218, 243);
 }
 
 
@@ -66,11 +71,11 @@ color: rgb(255, 0, 0);
   box-shadow: 0 0 10px rgba(21, 6, 240, 0.5);
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 .heder__icon {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   margin-left: 0.625rem;
   margin-right: 0.625rem;
   margin-top: auto;
@@ -149,3 +154,115 @@ color: rgb(255, 0, 0);
   background: red;
  
 }
+
+
+
+
+
+
+
+.footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: #1f1f1f;
+  min-height: 320px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.75rem;
+  margin-bottom: 2.5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 44.4375rem;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  display: flex;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-image: url(../image/logoza.ru\ \(1\).png);
+  color: white;
+}
+
+.footer__author {
+  display: flex;
+  color: white;
+  margin-bottom: 1.125rem;
+  margin-top: 1.125rem;
+  line-height: 1.5625rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__colum-heading {
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  color: white;
+  align-items: stretch;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+.footer__column-list {
+  list-style-type: none;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+.column-links {
+  list-style-type: none;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  opacity: 1;
+}
+
+.column-links:hover {
+  opacity: 0.5;
+}
+
+.footer__column_content_social {
+  justify-items: center;
+  color: white;
+}
+
+.footer__social-icons {
+  width: 1rem;
+  height: 1rem;
+}
+
+/*bak*#f7f7f7*
+color: #666;*/
