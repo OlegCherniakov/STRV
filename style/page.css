@@ -228,6 +228,21 @@ color: rgb(60, 60, 61);
   font-weight: 500;
   font-size: 1.5rem;
 }
+
+.important__img{
+  display: flex;
+  width: 80%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.important__img--img {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  padding: 20px 0;
+ 
+}
 .important__list {
   list-style: none;
   padding: 0;
