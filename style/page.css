@@ -281,6 +281,7 @@ margin-bottom: 5px;
 }
 .contact__map {
   border: 10px groove #b8bbb9;
+  box-shadow: 10px 20px 10px rgba(41, 40, 44, 0.5)
 }
  
 
@@ -288,6 +289,7 @@ margin-bottom: 5px;
 .contact__working--hours {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 .contact__working--hours_title {
   align-self: center;
