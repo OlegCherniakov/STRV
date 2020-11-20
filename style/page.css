@@ -1,5 +1,7 @@
 @import url("../vendor/normalize.css");
 
+
+
 body {
   /*background: url(../image/Шапка.jpg) no-repeat;  */
   -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -267,7 +269,57 @@ margin-bottom: 5px;
 }
 
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: 'Open+Sans';
+}
+.contact__title {
+  align-self: center;
+}
+.contact__map {
+  border: 10px groove #b8bbb9;
+}
+ 
 
+
+.contact__working--hours {
+  display: flex;
+  flex-direction: column;
+}
+.contact__working--hours_title {
+  align-self: center;
+}
+.contact__working--hours_text {
+  align-self: center;
+  padding-left: 100px;
+}
+.contact__adress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.contact__adress--ofice {
+}
+.contact__adress--ofice_title {
+}
+.contact__adress--ofice_text {
+}
+.contact__adress--ofice_phone {
+}
+.contact__adress--ofice_messenger {
+}
+.contact__adress--ofice_messenger-title {
+}
+.contact__adress--ofice_messenger-icon {
+}
+.contact__adress--ofice_messenger-icon__whatsapp {
+}
+.contact__adress--ofice_messenger-icon__telegramm {
+}
 
 
 
@@ -432,6 +484,8 @@ color: #ff5e14;
 font-size: 14px;
 color: #878787;
 }
+
+
 
 
 
