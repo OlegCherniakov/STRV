@@ -272,7 +272,7 @@ margin-bottom: 5px;
 .contact {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Open+Sans';
@@ -284,9 +284,6 @@ margin-bottom: 5px;
   border: 10px groove #b8bbb9;
   box-shadow: 10px 20px 10px rgba(41, 40, 44, 0.5)
 }
- 
-
-
 .contact__working--hours {
   display: flex;
   flex-direction: column;
@@ -334,6 +331,7 @@ margin-bottom: 5px;
 .footer-section {
 background: #151414;
 position: relative;
+
 }
 .footer-cta {
 border-bottom: 1px solid #373636;
