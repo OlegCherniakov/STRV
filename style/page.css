@@ -218,7 +218,7 @@ color: rgb(60, 60, 61);
   font-size: 1.5rem;
 }
 
-
+/*граница блока*/
 
 
 .important {
@@ -261,7 +261,62 @@ margin-bottom: 5px;
 }
 .important__list .important__list--questions :last-child {border-bottom: none;}
 
+.important__list--questions-enclosure {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  }
+  
+  .important__important__list--questions-enclosure--1 { grid-area: 1 / 1 / 2 / 3; }
+  .important__important__list--questions-enclosure--2 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--3 { grid-area: 3 / 1 / 4 / 2; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--4 { grid-area: 4 / 1 / 5 / 2; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--5 { grid-area: 5 / 1 / 6 / 2; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--6 { grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--7 { grid-area: 3 / 2 / 4 / 3; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--8 { grid-area: 4 / 2 / 5 / 3; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--9 { grid-area: 5 / 2 / 6 / 3; 
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+  }
+  .important__important__list--questions-enclosure--description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
+  }
 .important__home {
   color: rgb(4, 4, 250);
   font-weight: 600;
@@ -269,6 +324,81 @@ margin-bottom: 5px;
 }
 
 
+/*эти стили для раскрывания списка*/
+
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide,
+.hide + label ~ div {
+    display: none;
+}
+/* вид текста label */
+.hide + label {
+    margin: 0;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    margin-left: 20px;
+    padding: 10px;
+    /* чуточку анимации при появлении */
+     -webkit-animation:fade ease-in 0.5s; 
+     -moz-animation:fade ease-in 0.5s;
+     animation:fade ease-in 0.5s; 
+}
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }   
+}
+.hide + label:before {
+    background-color: #1e90ff;
+    color: #fff;
+    content: "\002B";
+    display: block;
+    float: left;
+    font-size: 14px; 
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 5px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.hide:checked + label:before {
+    content: "\2212";
+}
+
+
+
+
+
+
+/*Что бы не перепутать блоки*/
 .contact {
   display: flex;
   flex-direction: column;
