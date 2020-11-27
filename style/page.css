@@ -261,6 +261,20 @@ margin-bottom: 5px;
 }
 .important__list .important__list--questions :last-child {border-bottom: none;}
 
+
+/*от сюда переработал*/
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto 50px;
+  font-family: 'Open sans';
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
 /* скрываем чекбоксы и блоки с содержанием */
 .hide,
 .hide + label ~ div {
@@ -270,19 +284,24 @@ margin-bottom: 5px;
 .hide + label {
     margin: 0;
     padding: 0;
-    color: green;
+    color: rgb(106, 109, 106);
     cursor: pointer;
     display: inline-block;
+    padding: 10px 30px;
+background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+border-bottom: 1px solid grey;
 }
 /* вид текста label при активном переключателе */
 .hide:checked + label {
-    color: red;
+    color: black;
     border-bottom: 0;
 }
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
     display: block; 
-    background: #efefef;
+    padding: 10px 30px;
+background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+border-bottom: 1px solid grey;
     -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
     -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
     box-shadow: inset 3px 3px 10px #7d8e8f;
