@@ -283,13 +283,14 @@ margin-bottom: 5px;
 /* вид текста label */
 .hide + label {
     margin: 0;
-    padding: 0;
-    color: rgb(106, 109, 106);
+        color: rgb(106, 109, 106);
     cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
 background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
 border-bottom: 1px solid grey;
+/*box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);*/
+box-shadow: inset 0px 0px 5px rgba(154, 147, 140, 0.5), 10px 10px 15px rgb(121, 119, 119);
 }
 /* вид текста label при активном переключателе */
 .hide:checked + label {
