@@ -294,8 +294,9 @@ box-shadow: inset 0px 0px 5px rgba(154, 147, 140, 0.5), 10px 10px 8px rgb(121, 1
 }
 /* вид текста label при активном переключателе */
 .hide:checked + label {
-    color: black;
+    color: rgb(91, 209, 101);
     border-bottom: 0;
+    font-weight: 600;
 }
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
@@ -404,6 +405,11 @@ to { opacity: 1 }
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: red;
 
   }
 .important__home {
@@ -412,9 +418,103 @@ to { opacity: 1 }
   line-height: 1.7rem;
 }
 
+/*скопировал классы вентиляции CSS*/
 
 
+.important__list--questions-enclosure {
+}
+.important__important__list--questions-enclosure {
+  box-shadow: inset 3px 3px 10px #e0a015;
+  border-radius: 30px;
+}
+.important__important__list--questions-enclosure--1 {
+}
+.important__important__list--questions-enclosure--description {
+  
+}
+.important__list--questions-enclosure-title{
+  color: #35b44a;
+  font-size: 3.5rem;
+  line-height: 3.7rem;
 
+}
+.important__important__list--questions-enclosure-title {
+  color: rgb(13, 61, 218);
+  text-decoration: underline;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.important__important__list--questions-enclosure--2 {
+}
+.important__important__list--questions-enclosure-subtitle {
+  font-family: 'Lora';
+  color: #325253;
+  
+}
+.important__important__list--questions-enclosure--3 {
+}
+.important__important__list--questions-enclosure--4 {
+}
+.important__important__list--questions-enclosure--5 {
+}
+.important__important__list--questions-enclosure--6 {
+}
+.important__important__list--questions-enclosure--7 {
+}
+.important__important__list--questions-enclosure--8 {
+}
+.important__important__list--questions-enclosure--9 {
+}
+
+/*дальше пошли стили сворачиваемых блоков */
+
+.hide__ventilation {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lora';
+  margin-left: auto;
+  margin-right: auto;
+}
+.hide__ventilation--img {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  
+  margin-bottom: 20px;
+}
+.hide__ventilation--span{
+  color:green;
+  font-weight: 600;
+}
+.hide__ventilation--title{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  color: #1e0db6;
+}
+.hide__ventilation--block-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: baseline;
+}
+.hide__ventilation--img-in-block{
+  width: 300px;
+  height: 300px;  
+}
+.hide__ventilation--scroll--points{
+  font-family: 'Lora';
+}
+.ventilation__span--span{
+  text-transform: uppercase;
+  color: red;
+    text-decoration: underline;
+}
 
 
 /*Что бы не перепутать блоки*/
