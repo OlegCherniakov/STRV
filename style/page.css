@@ -220,6 +220,7 @@ body {
 
 .important__img {
   display: flex;
+  flex-direction: column;
   width: 80%;
   height: 350px;
   margin-left: auto;
@@ -480,7 +481,7 @@ body {
   display: flex;
   object-fit: cover;
   width: 100%;
-
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .hide__ventilation--span {
@@ -508,6 +509,7 @@ body {
 }
 .hide__ventilation--scroll--points {
   font-family: "Lora";
+  margin: 20px 0;
 }
 .ventilation__span--span {
   text-transform: uppercase;
@@ -517,6 +519,7 @@ body {
 
 .hide__ventilation--scroll--points-text {
   color: rgb(8, 143, 42);
+  margin: 10px 0;
 }
 
 .hide__block-air-conditioners {
