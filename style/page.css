@@ -130,7 +130,11 @@ body {
   display: block;
 }
 .menu:hover {
+  text-decoration: none;
+}
+.menu__text-a:hover {
   color: green;
+  background-color: #d2d6d6;
   border: 2px groove rgb(64, 250, 7);
 }
 .gallery {
