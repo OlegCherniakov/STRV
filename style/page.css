@@ -129,7 +129,10 @@ body {
   color: #ff0000;
   display: block;
 }
-
+.menu:hover {
+  color: green;
+  border: 2px groove rgb(64, 250, 7);
+}
 .gallery {
   width: 80%;
   height: 13.75rem;
