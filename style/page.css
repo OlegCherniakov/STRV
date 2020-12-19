@@ -100,39 +100,6 @@ body {
   text-decoration: underline;
 }
 
-/* Адаптивный блок меню */
-
-.menu-div {
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.toggle-button {
-}
-.heder__menu-list {
-  display: flex;
-}
-.heder__menu-list-str {
-  list-style: none;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-.menu {
-  text-decoration: none;
-  color: #000000;
-  font-size: 16px;
-  padding: 26px 6px;
-  margin-right: 33px;
-}
-.menu:hover {
-  background: rgb(231, 159, 24);
-}
-#menu-checkbox {
-  display: none;
-}
-
-/*
 .heder__menu {
   display: flex;
   max-width: 80%;
@@ -176,8 +143,6 @@ body {
   background-color: #d2d6d6;
   border: 2px groove rgb(64, 250, 7);
 }
-
-*/
 .gallery {
   width: 80%;
   height: 13.75rem;
@@ -851,68 +816,9 @@ body {
     margin-right: calc(1.5rem + (1.875rem - 1.5rem) * ((100vw - 320px) / (1200 - 320)));
   }
 }
-@media (max-width: 1060px) {
+@media (max-width: 900px) {
   .heder__blok {
     display: none;
-  }
-}
-
-/* Делаем всплывающее меню */
-@media screen and (max-width: 768px) {
-  .menu-div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-  .heder__menu-list {
-    display: none;
-  }
-  .heder__menu-list-str {
-    width: 100%;
-    display: block;
-    font-size: 12px;
-  }
-  .menu {
-    display: block;
-    padding: 8px;
-  }
-  .toggle-button {
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    color: black;
-  }
-  .toggle-button:after{
-content: attr(data-open);
-display: block;
-  }
-  #menu-checkbox:checked + nav[role="navigation"] .heder__menu-list {
-    display: block;
-  }
-  #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
-    content: attr(data-close);
-  }
-  .heder__menu-list-str {
-    margin-right: -65px;
-  }
-  .heder__menu-list {
-    position: relative;
-    top: 30px;
-    right: 115px;
-  }
-}
-@media (max-width: 426px) {
-  .gallery {
-    width: 100%;
-  }
-  .text__contents{
-    font-size: 2rem;
-  }
-  .text__text {
-    font-size: 1rem;
-  }
-  .text__text--list-item {
-    font-size: 1rem;
   }
 }
 
@@ -1027,7 +933,11 @@ display: block;
 
 
 
+/*
 
+
+
+*/
 .sorry {
   display: flex;
 }
