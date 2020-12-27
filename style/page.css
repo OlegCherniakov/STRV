@@ -107,8 +107,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.toggle-button {
-}
+
 .heder__menu-list {
   display: flex;
 }
@@ -240,8 +239,7 @@ body {
   font-weight: bold;
   color: rgb(60, 60, 61);
 }
-.text__text--list {
-}
+
 .important__list--questions-a {
   color: rgb(60, 60, 61);
 }
@@ -834,6 +832,71 @@ body {
   color: #878787;
 }
 
+/*Пробую переделать футер*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  font-family: Open sans;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #7d7f81;
+  justify-content: space-between;
+}
+.footer__img {
+  width: 250px;
+}
+.footer__img-str {
+  width: 100%;
+  height: auto;
+}
+.footer__address {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__address-exact {
+}
+.footer__address-phone {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.footer__address-phone-namber {
+}
+.footer__address-phone-massendger {
+}
+.contact__adress--ofice_messenger-icon__whatsapp {
+  width: 50px;
+  height: auto;
+}
+.contact__adress--ofice_messenger-icon__telegramm {
+  width: 60px;
+  height: auto;
+}
+.footer__menu {
+}
+.footer__menu--list {
+}
+.heder__menu-list-str {
+}
+.heder__menu-list-str_footer {
+}
+.menu__footer {
+  color: #7d7f81;
+  padding: 0;
+}
+.menu__footer:hover {
+  background-color: #b8bbb9;
+  color: #000000;
+  text-decoration: none;
+}
+/*Конец футера*/
+
 @media (max-width: 1200px) {
   .heder__menu-list-str {
     font-size: calc(0.9rem + (1 - 0.9) * ((100vw - 320px) / (1200 - 320)));
@@ -919,5 +982,22 @@ body {
   }
   .text__text--list-item {
     font-size: 1rem;
+  }
+  .footer__address-phone {
+    margin-left: 0;
+  }
+  .footer__img {
+    margin: 0 auto;
+  }
+  .footer__address {
+    margin: 0 auto;
+  }
+  .footer__menu {
+    margin: 0 auto;
+  }
+  .menu__footer {
+    margin: 0;
+    padding: 0;
+    border-color: #52a8d3;
   }
 }
