@@ -125,8 +125,25 @@ body {
   margin-right: 33px;
 }
 .menu:hover {
-  background: rgb(231, 159, 24);
+  background: rgb(233, 220, 195);
+  text-decoration: none;
 }
+
+.heder__menu {
+  padding: 5px 0;
+  color: #555353;
+
+}
+
+.heder__menu:hover {
+  color:#6e4d4d;
+  background-color: cyan;
+  text-decoration: none;
+}
+.heder__menu:active {
+  color: red;
+}
+
 #menu-checkbox {
   display: none;
 }
@@ -238,6 +255,12 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   color: rgb(60, 60, 61);
+}
+
+.menu__text-a {
+  padding: 0;
+  font-size: 1.25rem;
+  color: rgb(18, 139, 18);
 }
 
 .important__list--questions-a {
