@@ -180,7 +180,7 @@ body {
   height: 13.75rem;
   overflow: hidden;
   overflow-x: scroll;
- /* background: yellow;*/
+  background: rgb(112, 243, 36);
   white-space: nowrap;
   margin-right: auto;
   margin-left: auto;
@@ -191,8 +191,8 @@ body {
   vertical-align: top;
   width: 12.5rem;
   height: 12.5rem;
-  /*background: red;
-  background-image: url(../image/Mihail.jpg);*/
+ 
+  /*background-image: url(../image/Mihail.jpg);*/
   background-size: contain;
   
 }
