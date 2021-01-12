@@ -969,6 +969,12 @@ body {
     top: 30px;
     right: 115px;
   }
+  .footer {
+    justify-content: space-around;
+  }
+  .footer__address-phone {
+    justify-content: start;
+  }
 }
 @media (max-width: 426px) {
   .gallery {
