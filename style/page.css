@@ -912,7 +912,7 @@ body {
     margin-right: calc(1.5rem + (1.875rem - 1.5rem) * ((100vw - 320px) / (1200 - 320)));
   }
 }
-@media (max-width: 1060px) {
+@media (max-width: 1220px) {
   .heder__blok {
     display: none;
   }
@@ -927,7 +927,7 @@ body {
 }
 
 /* Делаем всплывающее меню */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .menu-div {
     width: 100%;
     display: flex;
