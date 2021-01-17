@@ -1,0 +1,36 @@
+
+
+.tin-products {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tin-products__title {
+    align-self: center;
+}
+
+.tin-products__subtitle {
+    font-size: 1.40rem;
+    align-self: center;
+}
+.tin-products__dimensions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tin-products__dimensions--peak {
+    flex-direction: column;
+}
+.tin-products__dimensions--peak-img {
+}
+.tin-products__equipment {
+}
+.tin-products__equipment-enumeration {
+}
+.tin-products__equipment-enumeration-list {
+    list-style-type: none;
+}
