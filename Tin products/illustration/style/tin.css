@@ -10,11 +10,25 @@
 .tin-products__title {
     align-self: center;
     font-style: normal;
+    text-align: left;
+  font-family: "Morganite";
+  
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
 }
+
 
 .tin-products__subtitle {
     font-size: 1.40rem;
     align-self: center;
+    display: flex;
+    font-family: "Morganite";
+    font-style: normal;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
 }
 .tin-products__dimensions {
     margin-top: 30px;
@@ -34,13 +48,18 @@
     list-style-type: none;
 }
 .tin-products__equipment-enumeration-list {
-    padding-left: 20px;
+    padding-left: 40px;
     position: relative;
     margin: 10px; 
+    font-size: 1.3rem;
+    line-height: 1.4rem;
 }
 
 .tin-products__equipment-enumeration-list::before {
     content: '✔';
     position: absolute; top: 0; left: 0;
     color: rgb(20, 228, 37);
+}
+.tin-products__equipment-enumeration--img {
+max-width: 35%;
 }
