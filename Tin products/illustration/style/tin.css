@@ -30,7 +30,16 @@
 .tin-products__equipment {
 }
 .tin-products__equipment-enumeration {
+    list-style-type: none;
 }
 .tin-products__equipment-enumeration-list {
-    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+    margin: 10px; 
+}
+
+.tin-products__equipment-enumeration-list::before {
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: rgb(20, 228, 37);
 }
