@@ -492,16 +492,11 @@ body {
 
 /*скопировал классы вентиляции CSS*/
 
-.important__list--questions-enclosure {
-}
 .important__important__list--questions-enclosure {
   box-shadow: inset 3px 3px 10px #e0a015;
   border-radius: 30px;
 }
-.important__important__list--questions-enclosure--1 {
-}
-.important__important__list--questions-enclosure--description {
-}
+
 .important__list--questions-enclosure-title {
   color: #35b44a;
   font-size: 3.5rem;
@@ -514,25 +509,9 @@ body {
   padding-top: 15px;
 }
 
-.important__important__list--questions-enclosure--2 {
-}
 .important__important__list--questions-enclosure-subtitle {
   font-family: "Lora";
   color: #325253;
-}
-.important__important__list--questions-enclosure--3 {
-}
-.important__important__list--questions-enclosure--4 {
-}
-.important__important__list--questions-enclosure--5 {
-}
-.important__important__list--questions-enclosure--6 {
-}
-.important__important__list--questions-enclosure--7 {
-}
-.important__important__list--questions-enclosure--8 {
-}
-.important__important__list--questions-enclosure--9 {
 }
 
 /*дальше пошли стили сворачиваемых блоков */
@@ -706,17 +685,13 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.footer__address-exact {
-}
+
 .footer__address-phone {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
 }
-.footer__address-phone-namber {
-}
-.footer__address-phone-massendger {
-}
+
 .contact__adress--ofice_messenger-icon__whatsapp {
   width: 50px;
   height: auto;
@@ -725,14 +700,7 @@ body {
   width: 60px;
   height: auto;
 }
-.footer__menu {
-}
-.footer__menu--list {
-}
-.heder__menu-list-str {
-}
-.heder__menu-list-str_footer {
-}
+
 .menu__footer {
   color: #7d7f81;
   padding: 0;
